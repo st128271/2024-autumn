@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "taska-№1", "Project1\Project1.vcxproj", "{D2A5A4C8-93D1-4372-9049-A1EB4C07C280}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task-1", "Project1\Project1.vcxproj", "{D2A5A4C8-93D1-4372-9049-A1EB4C07C280}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "taska-№2", "taska-№2\taska-№2.vcxproj", "{6D973F6C-55A9-480F-AC8D-55842ABCBF25}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task-2", "Task--2\Task--2.vcxproj", "{6D973F6C-55A9-480F-AC8D-55842ABCBF25}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "taska-№3", "taska-№3\taska-№3.vcxproj", "{85F99E50-9EBA-4BA9-8A31-0E290B328D11}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task--3", "Task--3\Task--3.vcxproj", "{85F99E50-9EBA-4BA9-8A31-0E290B328D11}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "taska-№4", "taska-№4\taska-№4.vcxproj", "{D4D55454-1640-4900-92A1-7039211E1DD6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task--4", "Task--4\Task--4.vcxproj", "{D4D55454-1640-4900-92A1-7039211E1DD6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "taska-№5", "taska-№5\taska-№5.vcxproj", "{EF2CA572-E3D1-4442-9012-460314BCA7FE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task--5", "Task--5\Task--5.vcxproj", "{EF2CA572-E3D1-4442-9012-460314BCA7FE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "taska-№6", "taska-№6\taska-№6.vcxproj", "{B3CDAB85-6883-4045-9535-724945F2A153}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task--6", "Task--6\Task--6.vcxproj", "{B3CDAB85-6883-4045-9535-724945F2A153}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "taska-№7", "taska-№7\taska-№7.vcxproj", "{B6C4C651-A6E3-469E-AE02-7FB2A4080819}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task--7", "Task--7\Task--7.vcxproj", "{B6C4C651-A6E3-469E-AE02-7FB2A4080819}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "taska-№8", "taska№8\taska№8.vcxproj", "{578FB840-24C7-40CF-804B-3A0352E962D2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task--8", "Task-8\Task-8.vcxproj", "{578FB840-24C7-40CF-804B-3A0352E962D2}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "taska-№9", "taska-№9\taska-№9.vcxproj", "{C118D599-61F4-434C-90C5-7D64174B4EA9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task--9", "Task--9\Task--9.vcxproj", "{C118D599-61F4-434C-90C5-7D64174B4EA9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "taska-№10", "taska-№10\taska-№10.vcxproj", "{8A5B6A24-1045-407E-8BE0-8B77736E60CD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task--10", "Task--10\Task--10.vcxproj", "{8A5B6A24-1045-407E-8BE0-8B77736E60CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

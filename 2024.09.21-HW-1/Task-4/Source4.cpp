@@ -8,6 +8,6 @@ int main(int argc, char* argv[])
     scanf_s("%d", &a);
     scanf_s("%d", &b);
     scanf_s("%d", &c);
-    printf("%d", a * b * c * 2); //кол-во панелей * размерность обр-мой поверх * 2 т.к. две стороны
+    printf("%d", a * b * c * 2); 
     return EXIT_SUCCESS;
 }
