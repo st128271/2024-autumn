@@ -1,14 +1,38 @@
 #include <iostream>
+#include <cmath>
 
-int main() {
-	int n; std::cin >> n;
-	for (int b = n; b >= 0; --b) {
-		int covered = b * 5;
-		if (covered > n) continue;
-		int rem = n - covered;
-		if (rem % 3 != 0) continue;
-		int a = rem / 3;
-		std::cout << b << ' ' << a;
-		break;
+int main(int argc, char* argv[]) {
+	int n = 0;
+	scanf("%d", &n);
+	int fm = n / 5;
+	int thm = n - fm * 5;
+	if (thm % 3 == 0) {
+		int a = thm / 3;
+		printf("%d %d", fm, a);
 	}
+	else {
+		fm--;
+		thm = n - fm * 5;
+		if (thm % 3 == 0) {
+			int a = thm / 3;
+			printf("%d %d", fm, a);
+		}
+		else {
+			fm--;
+			thm = n - fm * 5;
+			if (thm % 3 == 0) {
+				int a = thm / 3;
+				printf("%d %d", fm, a);
+			}
+			else {
+				fm--;
+				thm = n - fm * 5;
+				if (thm % 3 == 0) {
+					int a = thm / 3;
+					printf("%d %d", fm, a);
+				}
+			}
+		}
+	}
+	return EXIT_SUCCESS;
 }
