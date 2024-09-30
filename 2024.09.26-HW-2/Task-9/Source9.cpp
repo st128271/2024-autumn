@@ -9,18 +9,18 @@ int main(int argc, char* argv[])
     scanf("%d %d %d %d %d %d", &a[0], &b[0], &a[1], &b[1], &a[2], &b[2]);
     for (int i = 0; i < (1 << 3); ++i) {
         int count = 0;
-        int weight = 0;
+        int wes = 0;
         for (int j = 0; j < 3; ++j) {
             if (i & (1 << j)) {
-                weight += a[j];
+                wes += a[j];
                 count += b[j];
             }
         }
-        if (weight <= w && count >= k) {
+        if (wes <= w && count >= k) {
             printf("YES");
             return 0;
         }
     }
     printf("NO");
-    return 0;
+    return EXIT_SUCCESS;
 }
