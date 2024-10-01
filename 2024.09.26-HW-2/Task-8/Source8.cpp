@@ -1,23 +1,19 @@
 #include <iostream>
 
-int main() {
-	int number1, number2;
-	std::cin >> number1 >> number2;
-
-	if (number1 < number2) {
-		std::swap(number1, number2);
-	}
-
-	if (number1 == 1 || number2 == 1) {
-		std::cout << number1 * number2 * 4 << std::endl;
+int main(int argc, char* argv[]) {
+	int n = 0;
+	int m = 0;
+	scanf("%d", &n);
+	scanf("%d", &m);
+	int t = (m + 2) * n + m * (n + 2);
+	if (n == 1 || m == 1) {
+		printf("%d", n * m * 4);
 	}
 	else {
-		int result = (number2 + 2) * number1 + number2 * (number1 + 2);
-		if (number1 % 2 == 1 && number2 % 2 == 1) {
-			result -= 2;
+		if (n % 2 == 1 && m % 2 == 1) {
+			t -= 2;
 		}
-		std::cout << result << std::endl;
+		printf("%d", t);
 	}
-
-	return 0;
+	return EXIT_SUCCESS;
 }

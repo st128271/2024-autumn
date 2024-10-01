@@ -12,7 +12,7 @@ int main(int argc, char* argv[])
 	if ((n / k) * k == n) {
 		printf("%d", ((n / k) * 2 * m));
 	}
-	else if (n >= k){
+	else if (n > k) {
 		printf("%d", ((n / k) * 2 * m) + 2 * m);
 	}
 	else {

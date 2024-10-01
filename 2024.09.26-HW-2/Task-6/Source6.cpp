@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 
-int main() {
+int main(int argc, char* argv[]) {
 	double a, b, c;
 	scanf("%lf %lf %lf", &a, &b, &c);
 	if (a == 0 && b == 0 && c == 0) {
