@@ -8,7 +8,7 @@ int main(int argc, char* argv[])
 	int wdaysmem = 0;
 	for (int i = 0; i < n; ++i) {
 		int t = 0;
-		scanf_s("%d",&);
+		scanf_s("%d", &t);
 		if (t > 0) {
 			++wdays;
 			if (wdays > wdaysmem) {
