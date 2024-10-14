@@ -6,8 +6,9 @@ int main(int argc, char* argv[])
 	int j = 0;
 	scanf_s("%d", &i);
 	scanf_s("%d", &j);
-	for (int k = 0; k < i; ++k) {
-
+	if (i == 2 || j == 2)
+	{
+		i -= 1;
 	}
 	int nod = i;
 	int b = j;
@@ -16,6 +17,6 @@ int main(int argc, char* argv[])
 		nod = b;
 		b = nodvar;
 	}
-	printf("%d", i / nod);
+	printf("%d", nod % 1000000000);
 	return EXIT_SUCCESS;
 }
